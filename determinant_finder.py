@@ -21,10 +21,8 @@ def det_exp(det):
 det = []
 
 n = int(input("Enter the order of the determinant/square matrix:  "))
-for i in range(n):    
-    r_str = input()
-    row = list(map(lambda a: int(a), r_str.split()))
-    det.append(row)
+for i in range(n):
+    det.append(list(map(lambda a: int(a), input().split())))
 
 result = det_exp(det)
 print(result)
