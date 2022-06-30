@@ -1,5 +1,5 @@
 # sa_vol.py
-# print surface area and volume of all the listed figures(only two to be written)
+# print surface area and volume of all the listed figures
 '''
     1. Cone
     2. Sphere
